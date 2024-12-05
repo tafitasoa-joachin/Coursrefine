@@ -11,56 +11,58 @@ function Sidebar() {
             p={2}
             sx={{ display: { xs: "none", sm: "block" } }}
         >
-            <List>
-                <ListItem>
-                    <ListItemButton component="a" href="#home">
-                        <ListItemIcon>
-                            <Home />
-                        </ListItemIcon>
-                        <ListItemText primary="Homepage" />
-                    </ListItemButton>
-                </ListItem>
-                <ListItem>
-                    <ListItemButton component="a" href="#groups">
-                        <ListItemIcon>
-                            <Group />
-                        </ListItemIcon>
-                        <ListItemText primary="Groups" />
-                    </ListItemButton>
-                </ListItem>
-                <ListItem>
-                    <ListItemButton component="a" href="#marketplace">
-                        <ListItemIcon>
-                            <Shop />
-                        </ListItemIcon>
-                        <ListItemText primary="Marketplace" />
-                    </ListItemButton>
-                </ListItem>
-                <ListItem>
-                    <ListItemButton component="a" href="#settings">
-                        <ListItemIcon>
-                            <Settings />
-                        </ListItemIcon>
-                        <ListItemText primary="Settings" />
-                    </ListItemButton>
-                </ListItem>
-                <ListItem>
-                    <ListItemButton component="a" href="#profile">
-                        <ListItemIcon>
-                            <PortableWifiOff />
-                        </ListItemIcon>
-                        <ListItemText primary="Profile" />
-                    </ListItemButton>
-                </ListItem>
-                <ListItem>
-                    <ListItemButton component="a" href="#dark">
-                        <ListItemIcon>
-                            <ModeNight />
-                        </ListItemIcon>
-                        <Switch />
-                    </ListItemButton>
-                </ListItem>
-            </List>
+            <Box position="fixed">
+                <List>
+                    <ListItem>
+                        <ListItemButton component="a" href="#home">
+                            <ListItemIcon>
+                                <Home />
+                            </ListItemIcon>
+                            <ListItemText primary="Homepage" />
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemButton component="a" href="#groups">
+                            <ListItemIcon>
+                                <Group />
+                            </ListItemIcon>
+                            <ListItemText primary="Groups" />
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemButton component="a" href="#marketplace">
+                            <ListItemIcon>
+                                <Shop />
+                            </ListItemIcon>
+                            <ListItemText primary="Marketplace" />
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemButton component="a" href="#settings">
+                            <ListItemIcon>
+                                <Settings />
+                            </ListItemIcon>
+                            <ListItemText primary="Settings" />
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemButton component="a" href="#profile">
+                            <ListItemIcon>
+                                <PortableWifiOff />
+                            </ListItemIcon>
+                            <ListItemText primary="Profile" />
+                        </ListItemButton>
+                    </ListItem>
+                    <ListItem>
+                        <ListItemButton component="a" href="#dark">
+                            <ListItemIcon>
+                                <ModeNight />
+                            </ListItemIcon>
+                            <Switch />
+                        </ListItemButton>
+                    </ListItem>
+                </List>
+            </Box>
         </Box>
     )
 }
